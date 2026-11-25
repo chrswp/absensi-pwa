@@ -1,7 +1,7 @@
 import { FormEvent, useState } from "react";
 import { Clock3, Eye, EyeOff, LockKeyhole, UserRound } from "lucide-react";
 
-type Props = { onLogin: (role: "Admin" | "Karyawan") => void };
+type Props = { onLogin: (username: string, role: "Admin" | "Karyawan") => void };
 
 export default function LoginScreen({ onLogin }: Props) {
   const [username, setUsername] = useState("");
@@ -10,9 +10,9 @@ export default function LoginScreen({ onLogin }: Props) {
   const [error, setError] = useState("");
   const submit = (event: FormEvent) => {
     event.preventDefault();
-    const credentials = JSON.parse(localStorage.getItem("hadirupah-credentials") || '{"user-demo":"1234","admin":"1234"}') as Record<string, string>;
+    const credentials = JSON.parse(localStorage.getItem("hadirupah-credentials") || '{"user-demo":"1234","admin":"1234","nadia-demo":"1234","fajar-demo":"1234","salsa-demo":"1234"}') as Record<string, string>;
     if (credentials[username.trim()] !== password) { setError("Username atau password tidak sesuai."); return; }
-    onLogin(username.trim() === "admin" ? "Admin" : "Karyawan");
+    onLogin(username.trim(), username.trim() === "admin" ? "Admin" : "Karyawan");
   };
 
   return <main className="flex min-h-screen items-center justify-center bg-[#f3f8f6] px-4 py-10">
