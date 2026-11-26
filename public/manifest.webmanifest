@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "HadirUpah — Absensi & Payroll",
-  "short_name": "HadirUpah",
+  "name": "Hadir-GSI — Absensi & Payroll",
+  "short_name": "Hadir-GSI",
   "description": "Aplikasi absensi, pengajuan, dan ringkasan upah harian.",
   "lang": "id-ID",
   "start_url": "./",

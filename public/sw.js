@@ -1,4 +1,4 @@
-const CACHE_NAME = "hadirupah-shell-v2";
+const CACHE_NAME = "hadir-gsi-shell-v3";
 const APP_BASE = new URL(self.registration.scope);
 const APP_SHELL = ["", "index.html", "manifest.webmanifest", "icons/icon-192.svg", "icons/icon-512.svg"].map((path) => new URL(path, APP_BASE).href);
 
