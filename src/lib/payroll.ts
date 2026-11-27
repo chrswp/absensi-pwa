@@ -13,6 +13,26 @@ export type PayrollAttendance = {
   out?: string;
 };
 
+export type PayrollOptions = {
+  dailyDivisor: number;
+  overtimeDivisor: number;
+  includeOvertime: boolean;
+  includeIncentive: boolean;
+  basePayOverride: number | null;
+  overtimePayOverride: number | null;
+  holidayIncentiveOverride: number | null;
+};
+
+export const defaultPayrollOptions: PayrollOptions = {
+  dailyDivisor: 26,
+  overtimeDivisor: 173,
+  includeOvertime: true,
+  includeIncentive: true,
+  basePayOverride: null,
+  overtimePayOverride: null,
+  holidayIncentiveOverride: null,
+};
+
 export type PayrollSummary = {
   attendanceDays: number;
   basePay: number;
@@ -27,13 +47,14 @@ export function calculateMonthlyPayroll(
   records: Record<string, PayrollAttendance>,
   month: string,
   nationalHolidays: string[],
+  options: PayrollOptions = defaultPayrollOptions,
 ): PayrollSummary {
-  const dailyRate = employee.monthly / 26;
-  const hourlyRate = employee.monthly / 173;
+  const dailyRate = employee.monthly / options.dailyDivisor;
+  const hourlyRate = employee.monthly / options.overtimeDivisor;
   let attendanceDays = 0;
-  let basePay = 0;
+  let calculatedBasePay = 0;
   let overtimeHours = 0;
-  let holidayIncentive = 0;
+  let calculatedHolidayIncentive = 0;
 
   Object.entries(records).forEach(([key, record]) => {
     const prefix = `${employee.id}-`;
@@ -42,11 +63,11 @@ export function calculateMonthlyPayroll(
     if (!date.startsWith(month)) return;
 
     attendanceDays += 1;
-    basePay += dailyRate;
+    calculatedBasePay += dailyRate;
     const dayOfWeek = new Date(`${date}T12:00:00`).getDay();
     const weekdayNames = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
     const isHoliday = dayOfWeek === 0 || !employee.workDays.includes(weekdayNames[dayOfWeek]) || nationalHolidays.includes(date);
-    if (isHoliday) holidayIncentive += employee.holidayIncentive;
+    if (isHoliday) calculatedHolidayIncentive += employee.holidayIncentive;
 
     if (record.out) {
       const clockOut = Number(record.out.slice(0, 2)) * 60 + Number(record.out.slice(3, 5));
@@ -55,15 +76,16 @@ export function calculateMonthlyPayroll(
     }
   });
 
-  const overtimePay = Math.round(overtimeHours * hourlyRate);
-  const roundedBasePay = Math.round(basePay);
+  const basePay = options.basePayOverride ?? Math.round(calculatedBasePay);
+  const overtimePay = options.includeOvertime ? options.overtimePayOverride ?? Math.round(overtimeHours * hourlyRate) : 0;
+  const holidayIncentive = options.includeIncentive ? options.holidayIncentiveOverride ?? calculatedHolidayIncentive : 0;
   return {
     attendanceDays,
-    basePay: roundedBasePay,
-    overtimeHours,
+    basePay,
+    overtimeHours: options.includeOvertime ? overtimeHours : 0,
     overtimePay,
     holidayIncentive,
-    total: roundedBasePay + overtimePay + holidayIncentive,
+    total: basePay + overtimePay + holidayIncentive,
   };
 }
 
