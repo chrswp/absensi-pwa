@@ -35,11 +35,27 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Build site
         run: pnpm build
+      - name: Stage static public files
+        run: cp -R public/. .output/public/
       - name: Verify built Pages files
         run: |
-          test -f .output/public/index.html
-          test -f .output/public/manifest.webmanifest
-          ! grep -q 'src="/src/main.tsx"' .output/public/index.html
+          if [ ! -f .output/public/index.html ]; then
+            echo "::error::Build output is missing .output/public/index.html"
+            find .output -maxdepth 4 -type f | sort | head -100
+            exit 1
+          fi
+          if [ ! -f .output/public/manifest.webmanifest ]; then
+            echo "::error::Build output is missing manifest.webmanifest"
+            find .output/public -maxdepth 3 -type f | sort | head -100
+            exit 1
+          fi
+          if grep -q 'src="/src/main.tsx"' .output/public/index.html; then
+            echo "::error::Published index is the unbuilt source HTML"
+            grep -E 'manifest|script' .output/public/index.html
+            exit 1
+          fi
+          echo "Verified built index and manifest in .output/public"
+          grep -E 'manifest|script' .output/public/index.html
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
