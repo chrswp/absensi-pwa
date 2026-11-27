@@ -1,24 +1,15 @@
-import { FormEvent, useState } from "react";
-import { Clock3, Eye, EyeOff, LockKeyhole, UserRound } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Clock3, LockKeyhole } from "lucide-react";
 
-type Props = { onLogin: (username: string, role: "Admin" | "Karyawan") => void };
-
-export default function LoginScreen({ onLogin }: Props) {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
-  const [showPassword, setShowPassword] = useState(false);
-  const [error, setError] = useState("");
-  const submit = (event: FormEvent) => {
-    event.preventDefault();
-    const credentials = JSON.parse(localStorage.getItem("hadirupah-credentials") || '{"user-demo":"1234","admin":"1234","nadia-demo":"1234","fajar-demo":"1234","salsa-demo":"1234"}') as Record<string, string>;
-    if (credentials[username.trim()] !== password) { setError("Username atau password tidak sesuai."); return; }
-    onLogin(username.trim(), username.trim() === "admin" ? "Admin" : "Karyawan");
-  };
-
+export default function LoginScreen() {
   return <main className="flex min-h-screen items-center justify-center bg-[#f3f8f6] px-4 py-10">
-    <div className="grid w-full max-w-4xl overflow-hidden rounded-[28px] bg-white shadow-[0_30px_90px_-38px_rgba(15,118,110,.3)] md:grid-cols-[1.05fr_.95fr]">
-      <section className="relative hidden flex-col justify-between overflow-hidden bg-[#0f766e] p-10 text-white md:flex"><div className="absolute -right-20 -top-16 h-72 w-72 rounded-full border-[38px] border-white/5"/><div className="absolute -bottom-24 -left-14 h-64 w-64 rounded-full border-[35px] border-white/5"/><div className="relative flex items-center gap-3"><span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/15"><Clock3 size={24}/></span><span className="text-xl font-extrabold">Hadir-GSI</span></div><div className="relative max-w-sm"><div className="mb-4 inline-flex rounded-full bg-white/15 px-3 py-1.5 text-[10px] font-bold tracking-[.15em]">PEOPLE & PAYROLL</div><h1 className="text-4xl font-extrabold leading-tight tracking-tight">Kehadiran tertata, tim makin produktif.</h1><p className="mt-4 text-sm leading-6 text-teal-50">Kelola absensi, pengajuan, dan informasi upah dalam satu ruang kerja.</p></div><div className="relative text-[11px] text-teal-100">Workspace demo Hadir-GSI · Data tersimpan di perangkat ini</div></section>
-      <section className="p-7 sm:p-10"><div className="mb-8 flex items-center gap-3 md:hidden"><span className="flex h-10 w-10 items-center justify-center rounded-xl bg-teal-700 text-white"><Clock3 size={21}/></span><span className="text-lg font-extrabold text-slate-900">Hadir<span className="text-teal-700">Upah</span></span></div><div className="mb-7"><div className="mb-2 text-xs font-bold uppercase tracking-[.14em] text-teal-700">Selamat datang kembali</div><h2 className="text-2xl font-extrabold tracking-tight text-slate-900">Masuk ke akun Anda</h2><p className="mt-2 text-sm text-slate-500">Gunakan akun demo untuk melanjutkan.</p></div><form onSubmit={submit} className="space-y-4"><label className="block text-xs font-semibold text-slate-600">Username<span className="relative mt-1.5 block"><UserRound size={16} className="absolute left-3 top-3.5 text-slate-400"/><input required autoComplete="username" value={username} onChange={e => setUsername(e.target.value)} placeholder="Masukkan username" className="w-full rounded-xl border border-slate-200 py-3 pl-10 pr-3 text-sm outline-none transition focus:border-teal-600 focus:ring-4 focus:ring-teal-600/10"/></span></label><label className="block text-xs font-semibold text-slate-600">Password<span className="relative mt-1.5 block"><LockKeyhole size={16} className="absolute left-3 top-3.5 text-slate-400"/><input required autoComplete="current-password" type={showPassword ? "text" : "password"} value={password} onChange={e => setPassword(e.target.value)} placeholder="Masukkan password" className="w-full rounded-xl border border-slate-200 py-3 pl-10 pr-11 text-sm outline-none transition focus:border-teal-600 focus:ring-4 focus:ring-teal-600/10"/><button type="button" aria-label="Tampilkan password" onClick={() => setShowPassword(!showPassword)} className="absolute right-3 top-3 text-slate-400">{showPassword ? <EyeOff size={17}/> : <Eye size={17}/>}</button></span></label>{error && <p role="alert" className="rounded-lg bg-rose-50 px-3 py-2 text-xs font-medium text-rose-700">{error}</p>}<button type="submit" className="mt-2 w-full rounded-xl bg-teal-700 py-3.5 text-sm font-bold text-white shadow-lg shadow-teal-800/15 transition hover:bg-teal-800">Masuk</button></form><div className="mt-7 rounded-2xl border border-teal-100 bg-teal-50/70 p-4"><div className="text-[10px] font-bold uppercase tracking-wider text-teal-800">Akun demo</div><div className="mt-2 grid grid-cols-2 gap-3 text-[11px] text-slate-600"><div><b className="block text-slate-800">Karyawan</b>user-demo / 1234</div><div><b className="block text-slate-800">Admin</b>admin / 1234</div></div></div></section>
-    </div>
+    <section className="w-full max-w-md rounded-[28px] bg-white p-8 text-center shadow-[0_30px_90px_-38px_rgba(15,118,110,.3)] sm:p-10">
+      <div className="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-teal-700 text-white"><Clock3 size={26}/></div>
+      <p className="text-xs font-extrabold uppercase tracking-[.18em] text-teal-700">Hadir-GSI · People & Payroll</p>
+      <h1 className="mt-3 text-2xl font-extrabold tracking-tight text-slate-900">Masuk ke ruang kerja</h1>
+      <p className="mt-2 text-sm leading-6 text-slate-600">Gunakan akun Neon Auth perusahaan untuk melanjutkan.</p>
+      <Link to="/auth/sign-in" className="mt-7 flex w-full items-center justify-center gap-2 rounded-xl bg-teal-700 py-3.5 text-sm font-bold text-white transition hover:bg-teal-800"><LockKeyhole size={16}/>Masuk dengan Neon Auth</Link>
+      <p className="mt-5 text-xs text-slate-500">Belum punya akun? <Link to="/auth/sign-up" className="font-bold text-teal-700 hover:text-teal-900">Daftar di sini</Link></p>
+    </section>
   </main>;
 }
