@@ -33,33 +33,31 @@ jobs:
           cache: pnpm
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Build site
-        run: pnpm build
-      - name: Stage static public files
-        run: cp -R public/. .output/public/
+      - name: Build static Pages site
+        run: pnpm exec vite build --config vite.pages.config.ts
       - name: Verify built Pages files
         run: |
-          if [ ! -f .output/public/index.html ]; then
-            echo "::error::Build output is missing .output/public/index.html"
-            find .output -maxdepth 4 -type f | sort | head -100
+          if [ ! -f dist/index.html ]; then
+            echo "::error::Static Vite build is missing dist/index.html"
+            find dist -maxdepth 4 -type f | sort | head -100
             exit 1
           fi
-          if [ ! -f .output/public/manifest.webmanifest ]; then
-            echo "::error::Build output is missing manifest.webmanifest"
-            find .output/public -maxdepth 3 -type f | sort | head -100
+          if [ ! -f dist/manifest.webmanifest ]; then
+            echo "::error::Static Vite build is missing manifest.webmanifest"
+            find dist -maxdepth 3 -type f | sort | head -100
             exit 1
           fi
-          if grep -q 'src="/src/main.tsx"' .output/public/index.html; then
+          if grep -q 'src="/src/main.tsx"' dist/index.html; then
             echo "::error::Published index is the unbuilt source HTML"
-            grep -E 'manifest|script' .output/public/index.html
+            grep -E 'manifest|script' dist/index.html
             exit 1
           fi
-          echo "Verified built index and manifest in .output/public"
-          grep -E 'manifest|script' .output/public/index.html
+          echo "Verified built index and manifest in dist"
+          grep -E 'manifest|script' dist/index.html
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: dist
 
   deploy:
     environment:
