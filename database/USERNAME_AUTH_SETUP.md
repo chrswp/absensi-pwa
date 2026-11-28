@@ -15,13 +15,13 @@ NITRO_ADMIN_USERNAME=admin
 NITRO_ADMIN_SETUP_TOKEN=replace-with-a-long-random-secret
 ```
 
-Choose a reserved username and generate a long secret on the VPS, for example with `openssl rand -hex 32`. Restart Nitro, open `/auth/sign-up`, and register that username with a password of at least 10 characters and the setup token. The server grants Admin only if no Admin account exists yet.
+Choose a reserved username and generate a long secret on the VPS, for example with `openssl rand -hex 32`. Restart Nitro, open `/auth/sign-up`, and register that username with a password of at least 6 characters and the setup token. The server grants Admin only if no Admin account exists yet.
 
 After the first Admin registers, remove both variables from the systemd environment file and restart the service. Do not add the token as a `VITE_*` build variable or commit it to Git.
 
 ## Employee accounts
 
-The Admin must create an employee profile first and assign its login username. The employee can then register with that username and a password of at least 10 characters. Email on an employee profile is optional contact information and is not used for authentication.
+The Admin must create an employee profile first and assign its login username. The employee can then register with that username and a password of at least 6 characters. Email on an employee profile is optional contact information and is not used for authentication.
 
 Existing Neon Auth accounts are not imported because the app cannot read their passwords. Each employee must create a local username/password account. Existing employee, attendance, request, and payroll records remain in the database.
 

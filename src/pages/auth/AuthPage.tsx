@@ -42,8 +42,8 @@ export default function AuthPage() {
           <input required autoComplete="username" minLength={3} maxLength={32} value={username} onChange={(event) => setUsername(event.target.value)} className="mt-1.5 w-full rounded-xl border border-slate-200 px-3 py-3 text-base outline-none focus:border-teal-600" />
         </label>
         <label className="block text-sm font-medium text-slate-800">Password
-          <input required type="password" autoComplete={isSignUp ? "new-password" : "current-password"} minLength={isSignUp ? 10 : undefined} value={password} onChange={(event) => setPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-slate-200 px-3 py-3 text-base outline-none focus:border-teal-600" />
-          {isSignUp && <span className="mt-1 block text-xs font-normal text-slate-500">Minimal 10 karakter.</span>}
+          <input required type="password" autoComplete={isSignUp ? "new-password" : "current-password"} minLength={isSignUp ? 6 : undefined} value={password} onChange={(event) => setPassword(event.target.value)} className="mt-1.5 w-full rounded-xl border border-slate-200 px-3 py-3 text-base outline-none focus:border-teal-600" />
+          {isSignUp && <span className="mt-1 block text-xs font-normal text-slate-500">Minimal 6 karakter.</span>}
         </label>
         {isSignUp && <label className="block text-sm font-medium text-slate-800">Kode setup Admin <span className="font-normal text-slate-500">(khusus Admin pertama)</span>
           <input type="password" autoComplete="off" value={adminSetupToken} onChange={(event) => setAdminSetupToken(event.target.value)} className="mt-1.5 w-full rounded-xl border border-slate-200 px-3 py-3 text-base outline-none focus:border-teal-600" />

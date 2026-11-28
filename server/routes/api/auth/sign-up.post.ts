@@ -8,7 +8,7 @@ export default defineHandler(async (event) => {
   const username = normalizeUsername(String(body?.username ?? ""));
   const password = String(body?.password ?? "");
   if (!/^[a-z0-9._-]{3,32}$/.test(username)) throw createError({ statusCode: 400, statusMessage: "Username harus 3–32 karakter: huruf, angka, titik, garis bawah, atau tanda hubung." });
-  if (password.length < 10) throw createError({ statusCode: 400, statusMessage: "Password minimal 10 karakter." });
+  if (password.length < 6) throw createError({ statusCode: 400, statusMessage: "Password minimal 6 karakter." });
 
   const adminUsername = normalizeUsername(process.env.NITRO_ADMIN_USERNAME ?? "");
   const setupToken = process.env.NITRO_ADMIN_SETUP_TOKEN ?? "";

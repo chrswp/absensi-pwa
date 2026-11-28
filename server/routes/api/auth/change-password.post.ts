@@ -9,7 +9,7 @@ export default defineHandler(async (event) => {
   const body = await readBody<{ currentPassword?: string; newPassword?: string }>(event);
   const currentPassword = String(body?.currentPassword ?? "");
   const newPassword = String(body?.newPassword ?? "");
-  if (newPassword.length < 10) throw createError({ statusCode: 400, statusMessage: "Password baru minimal 10 karakter." });
+  if (newPassword.length < 6) throw createError({ statusCode: 400, statusMessage: "Password baru minimal 6 karakter." });
   const rows = await sql`SELECT password_hash FROM local_auth_users WHERE id = ${session.user.id} LIMIT 1`;
   if (!rows[0] || !(await verifyPassword(currentPassword, String(rows[0].password_hash)))) throw createError({ statusCode: 401, statusMessage: "Password saat ini salah." });
   const passwordHash = await hashPassword(newPassword);
