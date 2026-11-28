@@ -6,7 +6,9 @@ import path from "path";
 import { nitro } from "nitro/vite";
 
 export default defineConfig(({ mode }) => ({
-  base: mode === "production" ? "/absensi-pwa/" : "/",
+  // The Nitro app is deployed at the domain root. GitHub Pages uses
+  // vite.pages.config.ts, which sets its own repository subpath.
+  base: "/",
   server: {
     host: "::",
     port: 8080,
