@@ -18,7 +18,7 @@ type Payload = {
 };
 
 export default defineHandler(async (event) => {
-  const url = getRequestURL(event);
+  const url = getRequestURL(event, { xForwardedProto: true });
   const session = await getSessionFromCookie(getRequestHeader(event, "cookie") ?? null, url.protocol === "http:");
   if (!session?.user) throw createError({ statusCode: 401, statusMessage: "Unauthorized" });
   const body = await readBody<Payload>(event);

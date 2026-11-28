@@ -6,7 +6,7 @@ const NEON_AUTH_BASE_URL = process.env.NEON_AUTH_BASE_URL!;
 const FORWARDED_REQUEST_HEADERS = new Set(["accept", "accept-language", "authorization", "content-type", "cookie", "origin", "referer", "user-agent", "x-forwarded-for"]);
 
 export default defineHandler(async (event) => {
-  const url = getRequestURL(event);
+  const url = getRequestURL(event, { xForwardedProto: true });
   const upstreamPath = url.pathname.startsWith("/api/auth") ? url.pathname.slice("/api/auth".length) || "/" : url.pathname;
   const forwardedHeaders = new Headers();
   const incomingHeaders = getRequestHeaders(event);
