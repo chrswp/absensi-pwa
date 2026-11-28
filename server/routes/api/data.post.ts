@@ -1,7 +1,7 @@
 import { defineHandler } from "nitro";
-import { createError, getRequestHeader, getRequestURL, readBody } from "nitro/h3";
+import { createError, getRequestHeader, readBody } from "nitro/h3";
 import { sql } from "../../utils/db";
-import { getSessionFromCookie } from "../../utils/session";
+import { getSessionFromCookie } from "../../utils/local-auth";
 
 type Payload = {
   action?: string;
@@ -18,28 +18,31 @@ type Payload = {
 };
 
 export default defineHandler(async (event) => {
-  const url = getRequestURL(event, { xForwardedProto: true });
-  const session = await getSessionFromCookie(getRequestHeader(event, "cookie") ?? null, url.protocol === "http:");
+  const session = await getSessionFromCookie(getRequestHeader(event, "cookie") ?? null);
   if (!session?.user) throw createError({ statusCode: 401, statusMessage: "Unauthorized" });
   const body = await readBody<Payload>(event);
-  const users = await sql`SELECT role FROM app_users WHERE auth_user_id = ${session.user.id}`;
+  const users = await sql`SELECT role FROM local_auth_users WHERE id = ${session.user.id}`;
   const role = users[0]?.role;
   const isAdmin = role === "Admin";
   if (body.action === "create-employee") {
     if (!isAdmin || !body.employee) throw createError({ statusCode: 403, statusMessage: "Admin access required" });
     const e = body.employee;
-    const rows = await sql`INSERT INTO employees (username, name, phone, email, emergency_phone, bank_name, bank_account, job_title, monthly_salary, holiday_incentive, work_start, work_end, work_days, status) VALUES (${String(e.username)}, ${String(e.name)}, ${String(e.phone ?? "")}, ${String(e.email ?? "")}, ${String(e.emergencyPhone ?? "")}, ${String(e.bankName ?? "")}, ${String(e.bankAccount ?? "")}, ${String(e.role)}, ${Number(e.monthly)}, ${Number(e.holidayIncentive ?? 0)}, ${String(e.workStart)}, ${String(e.workEnd)}, ${JSON.stringify(e.workDays)}, 'Aktif') RETURNING id`;
+    const username = String(e.username ?? "").trim().toLowerCase();
+    if (!/^[a-z0-9._-]{3,32}$/.test(username)) throw createError({ statusCode: 400, statusMessage: "Username harus 3–32 karakter: huruf, angka, titik, garis bawah, atau tanda hubung." });
+    const duplicate = await sql`SELECT id FROM employees WHERE lower(username) = ${username} LIMIT 1`;
+    if (duplicate.length) throw createError({ statusCode: 409, statusMessage: "Username sudah digunakan." });
+    const rows = await sql`INSERT INTO employees (username, name, phone, email, emergency_phone, bank_name, bank_account, job_title, monthly_salary, holiday_incentive, work_start, work_end, work_days, status) VALUES (${username}, ${String(e.name)}, ${String(e.phone ?? "")}, ${String(e.email ?? "")}, ${String(e.emergencyPhone ?? "")}, ${String(e.bankName ?? "")}, ${String(e.bankAccount ?? "")}, ${String(e.role)}, ${Number(e.monthly)}, ${Number(e.holidayIncentive ?? 0)}, ${String(e.workStart)}, ${String(e.workEnd)}, ${JSON.stringify(e.workDays)}, 'Aktif') RETURNING id`;
     return { id: rows[0].id };
   }
   if (body.action === "attendance") {
-    const employeeId = isAdmin ? Number(body.employeeId) : Number((await sql`SELECT id FROM employees WHERE auth_user_id = ${session.user.id}`)[0]?.id);
+    const employeeId = isAdmin ? Number(body.employeeId) : Number((await sql`SELECT id FROM employees WHERE lower(username) = ${session.user.username}`)[0]?.id);
     if (!employeeId) throw createError({ statusCode: 403, statusMessage: "Employee profile required" });
     const a = body.attendance ?? {};
     await sql`INSERT INTO attendance_records (employee_id, work_date, clock_in, clock_out, photo, location, coords) VALUES (${employeeId}, ${body.date!}, ${String(a.in ?? "")}, ${String(a.out ?? "")}, ${String(a.photo ?? "")}, ${String(a.location ?? "")}, ${String(a.coords ?? "")}) ON CONFLICT (employee_id, work_date) DO UPDATE SET clock_in = EXCLUDED.clock_in, clock_out = EXCLUDED.clock_out, photo = EXCLUDED.photo, location = EXCLUDED.location, coords = EXCLUDED.coords`;
     return { ok: true };
   }
   if (body.action === "request") {
-    const employeeId = Number((await sql`SELECT id FROM employees WHERE auth_user_id = ${session.user.id}`)[0]?.id);
+    const employeeId = Number((await sql`SELECT id FROM employees WHERE lower(username) = ${session.user.username}`)[0]?.id);
     if (!employeeId) throw createError({ statusCode: 403, statusMessage: "Employee profile required" });
     await sql`INSERT INTO employee_requests (employee_id, kind, request_date, note) VALUES (${employeeId}, ${String(body.kind)}, ${body.date!}, ${String(body.note ?? "")})`;
     return { ok: true };

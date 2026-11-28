@@ -1,0 +1,537 @@
+%PDF-1.4
+%HadUpahDoc
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 10616 >>
+stream
+0.05 0.46 0.43 rg 0 833 595 9 re f
+0.05 0.46 0.43 rg 0 523 595 310 re f
+0.78 0.94 0.90 rg BT /F2 10 Tf 1 0 0 1 50 781 Tm (PRODUK  /  REKAP FITUR) Tj ET
+1 1 1 rg BT /F2 38 Tf 1 0 0 1 50 707 Tm (HadirUpah) Tj ET
+0.88 0.97 0.94 rg BT /F1 15 Tf 1 0 0 1 50 672 Tm (Absensi, HR, dan payroll dalam satu workspace) Tj ET
+1 1 1 rg BT /F1 11 Tf 1 0 0 1 50 624 Tm (Ringkasan fungsional aplikasi demo: peran HR dan karyawan, halaman,) Tj ET
+1 1 1 rg BT /F1 11 Tf 1 0 0 1 50 607 Tm (wireframe konseptual, workflow operasional, perhitungan upah, serta) Tj ET
+1 1 1 rg BT /F1 11 Tf 1 0 0 1 50 590 Tm (batas implementasi saat ini.) Tj ET
+0.88 0.97 0.94 rg BT /F2 10 Tf 1 0 0 1 50 554 Tm (Versi dokumentasi: Juni 2025) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 477 Tm (Tujuan aplikasi) Tj ET
+0.25 0.31 0.33 rg BT /F1 11 Tf 1 0 0 1 42 456 Tm (Membantu karyawan mencatat kehadiran dengan bukti foto dan lokasi, mengajukan izin) Tj ET
+0.25 0.31 0.33 rg BT /F1 11 Tf 1 0 0 1 42 439 Tm (atau cuti, serta melihat estimasi upah. HR mengelola profil karyawan, persetujuan, dan) Tj ET
+0.25 0.31 0.33 rg BT /F1 11 Tf 1 0 0 1 42 422 Tm (ringkasan payroll.) Tj ET
+0.95 0.98 0.97 rg 42 255 245 125 re f
+0.85 0.90 0.89 RG 1 w 42 255 245 125 re S
+0.05 0.46 0.43 rg BT /F2 11 Tf 1 0 0 1 56 358 Tm (AKUN HR) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 338 Tm (U) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 321 Tm (s) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 304 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 287 Tm (r) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 270 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 253 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 236 Tm (m) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 219 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 202 Tm (:) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 181 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 164 Tm (d) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 147 Tm (m) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 130 Tm (i) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 113 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 96 Tm (
+) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 79 Tm (P) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 62 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 45 Tm (s) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 28 Tm (s) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 11 Tm (w) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -6 Tm (o) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -23 Tm (r) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -40 Tm (d) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -61 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -78 Tm (w) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -95 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -112 Tm (l) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -129 Tm (:) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -150 Tm (1) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -167 Tm (2) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -184 Tm (3) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -201 Tm (4) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -218 Tm (
+) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -235 Tm (S) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -252 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -269 Tm (t) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -286 Tm (u) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -307 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -324 Tm (k) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -341 Tm (u) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -358 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -379 Tm (H) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -396 Tm (R) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -417 Tm (m) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -434 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -451 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -468 Tm (g) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -485 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -502 Tm (l) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -519 Tm (o) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -536 Tm (l) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -553 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -574 Tm (s) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -591 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -608 Tm (l) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -625 Tm (u) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -642 Tm (r) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -659 Tm (u) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -676 Tm (h) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -697 Tm (d) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -714 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -731 Tm (t) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -748 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -769 Tm (k) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -786 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -803 Tm (r) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -820 Tm (y) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -837 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -854 Tm (w) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -871 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -888 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 -905 Tm (.) Tj ET
+0.95 0.98 0.97 rg 307 255 246 125 re f
+0.85 0.90 0.89 RG 1 w 307 255 246 125 re S
+0.05 0.46 0.43 rg BT /F2 11 Tf 1 0 0 1 321 358 Tm (AKUN KARYAWAN) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 338 Tm (U) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 321 Tm (s) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 304 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 287 Tm (r) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 270 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 253 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 236 Tm (m) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 219 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 202 Tm (:) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 181 Tm (u) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 164 Tm (s) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 147 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 130 Tm (r) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 113 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 96 Tm (d) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 79 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 62 Tm (m) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 45 Tm (o) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 28 Tm (
+) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 11 Tm (P) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -6 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -23 Tm (s) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -40 Tm (s) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -57 Tm (w) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -74 Tm (o) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -91 Tm (r) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -108 Tm (d) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -129 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -146 Tm (w) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -163 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -180 Tm (l) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -197 Tm (:) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -218 Tm (1) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -235 Tm (2) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -252 Tm (3) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -269 Tm (4) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -286 Tm (
+) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -303 Tm (C) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -320 Tm (o) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -337 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -354 Tm (t) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -371 Tm (o) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -388 Tm (h) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -409 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -426 Tm (k) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -443 Tm (u) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -460 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -481 Tm (t) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -498 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -515 Tm (m) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -532 Tm (b) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -549 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -566 Tm (h) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -583 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -600 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -621 Tm (t) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -638 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -655 Tm (r) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -672 Tm (s) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -689 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -706 Tm (d) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -723 Tm (i) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -740 Tm (a) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -761 Tm (u) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -778 Tm (n) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -795 Tm (t) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -812 Tm (u) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -829 Tm (k) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -850 Tm (d) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -867 Tm (e) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -884 Tm (m) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -901 Tm (o) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 321 -918 Tm (.) Tj ET
+0.75 0.36 0.08 rg BT /F2 10 Tf 1 0 0 1 42 225 Tm (PENTING) Tj ET
+0.35 0.35 0.32 rg BT /F1 9 Tf 1 0 0 1 42 207 Tm (Aplikasi saat ini adalah demo client-side. Data dan password tersimpan di browser) Tj ET
+0.35 0.35 0.32 rg BT /F1 9 Tf 1 0 0 1 42 193 Tm (perangkat, bukan database server. Jangan gunakan kredensial demo atau data rekening) Tj ET
+0.35 0.35 0.32 rg BT /F1 9 Tf 1 0 0 1 42 179 Tm (nyata pada penggunaan produksi.) Tj ET
+0.84 0.89 0.88 RG 1 w 42 37 m 553 37 l S
+0.48 0.54 0.55 rg BT /F1 8 Tf 1 0 0 1 42 18 Tm (HadirUpah | Ringkasan produk) Tj ET
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 520 18 Tm (01) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 3409 >>
+stream
+0.05 0.46 0.43 rg 0 833 595 9 re f
+0.05 0.46 0.43 rg BT /F2 9 Tf 1 0 0 1 42 799 Tm (HADIRUPAH  /  DOKUMEN PRODUK) Tj ET
+0.10 0.19 0.20 rg BT /F2 24 Tf 1 0 0 1 42 763 Tm (1. Fitur dan peran) Tj ET
+0.42 0.49 0.50 rg BT /F1 10 Tf 1 0 0 1 42 741 Tm (Apa yang tersedia untuk HR dan karyawan) Tj ET
+0.84 0.89 0.88 RG 1 w 42 725 m 553 725 l S
+0.84 0.89 0.88 RG 1 w 42 37 m 553 37 l S
+0.48 0.54 0.55 rg BT /F1 8 Tf 1 0 0 1 42 18 Tm (Ringkasan aplikasi | Demo lokal | Juni 2025) Tj ET
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 520 18 Tm (02) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 702 Tm (HR / Admin) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 681 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 681 Tm (Dashboard HR: jumlah karyawan, check-in hari ini, pengajuan menunggu, total upah) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 667 Tm (bulanan, dan daftar kehadiran tim.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 650 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 650 Tm (Kelola profil karyawan: nama, jabatan/fungsi, username/password awal, telepon,) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 636 Tm (email, kontak darurat, bank dan rekening.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 619 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 619 Tm (Atur komponen kompensasi: upah bulanan, insentif Minggu/libur, jam kerja default) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 605 Tm (07.00-17.00, hari kerja default Senin-Sabtu.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 588 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 588 Tm (Tinjau pengajuan dan setujui atau tolak. Lihat payroll seluruh tim dan) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 574 Tm (buat/bagikan teks slip gaji.) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 549 Tm (Karyawan) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 528 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 528 Tm (Clock in/out dengan selfie, timestamp, lokasi GPS, alamat hasil reverse geocoding,) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 514 Tm (dan koordinat.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 497 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 497 Tm (Lihat akumulasi upah hari ini dan rincian per tanggal: dasar harian, lembur,) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 483 Tm (insentif, dan total.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 466 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 466 Tm (Ajukan Izin, Sakit, Datang terlambat, Pulang awal, atau Cuti; pantau status) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 452 Tm (persetujuan.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 435 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 435 Tm (Bagikan bukti absensi dan slip melalui Web Share API bila didukung browser.) Tj ET
+0.95 0.98 0.97 rg 42 290 511 116 re f
+0.85 0.90 0.89 RG 1 w 42 290 511 116 re S
+0.05 0.46 0.43 rg BT /F2 11 Tf 1 0 0 1 56 384 Tm (RUMUS PAYROLL DEMO) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 364 Tm (Upah harian = upah bulanan / 26.) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 347 Tm (Upah lembur per jam = upah bulanan / 173; lembur diperkirakan dari clock out setelah) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 334 Tm (jam selesai.) Tj ET
+0.25 0.31 0.33 rg BT /F1 9 Tf 1 0 0 1 56 317 Tm (Insentif ditambahkan pada Minggu atau tanggal yang bukan hari kerja terjadwal.) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 4222 >>
+stream
+0.05 0.46 0.43 rg 0 833 595 9 re f
+0.05 0.46 0.43 rg BT /F2 9 Tf 1 0 0 1 42 799 Tm (HADIRUPAH  /  DOKUMEN PRODUK) Tj ET
+0.10 0.19 0.20 rg BT /F2 24 Tf 1 0 0 1 42 763 Tm (2. Peta halaman) Tj ET
+0.42 0.49 0.50 rg BT /F1 10 Tf 1 0 0 1 42 741 Tm (Navigasi utama berubah sesuai akun) Tj ET
+0.84 0.89 0.88 RG 1 w 42 725 m 553 725 l S
+0.84 0.89 0.88 RG 1 w 42 37 m 553 37 l S
+0.48 0.54 0.55 rg BT /F1 8 Tf 1 0 0 1 42 18 Tm (Ringkasan aplikasi | Demo lokal | Juni 2025) Tj ET
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 520 18 Tm (03) Tj ET
+0.92 0.97 0.95 rg 42 656 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 656 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 673 Tm (LOGIN) Tj ET
+1 1 1 rg 154 656 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 656 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 682 Tm (Form username/password; akun demo; validasi lokal; pesan error.) Tj ET
+0.92 0.97 0.95 rg 42 607 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 607 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 624 Tm (HR - Ringkasan) Tj ET
+1 1 1 rg 154 607 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 607 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 633 Tm (Kartu metrik tim dan daftar kehadiran hari ini.) Tj ET
+0.92 0.97 0.95 rg 42 558 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 558 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 575 Tm (HR - Karyawan) Tj ET
+1 1 1 rg 154 558 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 558 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 584 Tm (Cari dan kelola profil; tambah karyawan dan akun; reset sandi demo ke) Tj ET
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 573 Tm (1234.) Tj ET
+0.92 0.97 0.95 rg 42 509 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 509 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 526 Tm (HR - Pengajuan) Tj ET
+1 1 1 rg 154 509 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 509 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 535 Tm (Daftar permohonan karyawan; setujui atau tolak yang menunggu.) Tj ET
+0.92 0.97 0.95 rg 42 460 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 460 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 477 Tm (HR - Penggajian) Tj ET
+1 1 1 rg 154 460 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 460 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 486 Tm (Tabel upah seluruh tim; buat dan bagikan slip payroll.) Tj ET
+0.92 0.97 0.95 rg 42 411 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 411 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 428 Tm (Karyawan - Ringkasan) Tj ET
+1 1 1 rg 154 411 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 411 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 437 Tm (Status hari ini, jadwal, clock in/out, verifikasi selfie/lokasi,) Tj ET
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 426 Tm (ringkasan upah dan pengajuan.) Tj ET
+0.92 0.97 0.95 rg 42 362 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 362 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 379 Tm (Karyawan - Absensi) Tj ET
+1 1 1 rg 154 362 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 362 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 388 Tm (Area clock in/out, pengambilan selfie, lokasi, koordinat, timestamp,) Tj ET
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 377 Tm (tombol share.) Tj ET
+0.92 0.97 0.95 rg 42 313 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 313 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 330 Tm (Karyawan - Pengajuan) Tj ET
+1 1 1 rg 154 313 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 313 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 339 Tm (Daftar/status pengajuan dan modal mandiri untuk mengirim permohonan.) Tj ET
+0.92 0.97 0.95 rg 42 264 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 264 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 281 Tm (Karyawan - Upah harian) Tj ET
+1 1 1 rg 154 264 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 264 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 290 Tm (Akumulasi hari ini plus tabel per tanggal dengan rincian upah, lembur,) Tj ET
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 279 Tm (insentif.) Tj ET
+0.92 0.97 0.95 rg 42 215 112 43 re f
+0.84 0.90 0.88 RG 1 w 42 215 112 43 re S
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 51 232 Tm (Karyawan - Penggajian) Tj ET
+1 1 1 rg 154 215 399 43 re f
+0.88 0.91 0.91 RG 1 w 154 215 399 43 re S
+0.25 0.31 0.33 rg BT /F1 8 Tf 1 0 0 1 166 241 Tm (Ringkasan gaji dan tombol membagikan slip.) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 3983 >>
+stream
+0.05 0.46 0.43 rg 0 833 595 9 re f
+0.05 0.46 0.43 rg BT /F2 9 Tf 1 0 0 1 42 799 Tm (HADIRUPAH  /  DOKUMEN PRODUK) Tj ET
+0.10 0.19 0.20 rg BT /F2 24 Tf 1 0 0 1 42 763 Tm (3. Wireframe konseptual) Tj ET
+0.42 0.49 0.50 rg BT /F1 10 Tf 1 0 0 1 42 741 Tm (Tata letak ringkas; bukan mockup pixel-perfect) Tj ET
+0.84 0.89 0.88 RG 1 w 42 725 m 553 725 l S
+0.84 0.89 0.88 RG 1 w 42 37 m 553 37 l S
+0.48 0.54 0.55 rg BT /F1 8 Tf 1 0 0 1 42 18 Tm (Ringkasan aplikasi | Demo lokal | Juni 2025) Tj ET
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 520 18 Tm (04) Tj ET
+0.05 0.46 0.43 rg BT /F2 11 Tf 1 0 0 1 42 699 Tm (DASHBOARD HR) Tj ET
+1 1 1 rg 42 420 511 265 re f
+0.77 0.84 0.82 RG 1 w 42 420 511 265 re S
+0.94 0.97 0.96 rg 42 650 511 35 re f
+0.16 0.22 0.25 rg BT /F2 9 Tf 1 0 0 1 55 663 Tm ([Menu]  HadirUpah / Ringkasan HR              [Admin] [Keluar]) Tj ET
+0.94 0.98 0.97 rg 56 578 111 57 re f
+0.84 0.90 0.88 RG 1 w 56 578 111 57 re S
+0.94 0.98 0.97 rg 178 578 111 57 re f
+0.84 0.90 0.88 RG 1 w 178 578 111 57 re S
+0.94 0.98 0.97 rg 300 578 111 57 re f
+0.84 0.90 0.88 RG 1 w 300 578 111 57 re S
+0.94 0.98 0.97 rg 422 578 115 57 re f
+0.84 0.90 0.88 RG 1 w 422 578 115 57 re S
+0.16 0.22 0.25 rg BT /F2 8 Tf 1 0 0 1 65 613 Tm (Karyawan) Tj ET
+0.16 0.22 0.25 rg BT /F2 8 Tf 1 0 0 1 186 613 Tm (Hadir) Tj ET
+0.16 0.22 0.25 rg BT /F2 8 Tf 1 0 0 1 308 613 Tm (Menunggu) Tj ET
+0.16 0.22 0.25 rg BT /F2 8 Tf 1 0 0 1 431 613 Tm (Upah tim) Tj ET
+0.16 0.22 0.25 rg BT /F1 9 Tf 1 0 0 1 65 591 Tm (jumlah) Tj ET
+0.16 0.22 0.25 rg BT /F1 9 Tf 1 0 0 1 186 591 Tm (jumlah) Tj ET
+0.16 0.22 0.25 rg BT /F1 9 Tf 1 0 0 1 308 591 Tm (jumlah) Tj ET
+0.16 0.22 0.25 rg BT /F1 9 Tf 1 0 0 1 431 591 Tm (total) Tj ET
+1 1 1 rg 56 442 481 120 re f
+0.84 0.90 0.88 RG 1 w 56 442 481 120 re S
+0.16 0.22 0.25 rg BT /F2 9 Tf 1 0 0 1 68 542 Tm (Status kehadiran tim) Tj ET
+0.84 0.89 0.88 RG 1 w 68 526 m 525 526 l S
+0.16 0.22 0.25 rg BT /F1 8 Tf 1 0 0 1 72 511 Tm (Nama karyawan  | Jabatan) Tj ET
+0.16 0.22 0.25 rg BT /F1 8 Tf 1 0 0 1 445 511 Tm (Hadir / Belum) Tj ET
+0.84 0.89 0.88 RG 1 w 68 506 m 525 506 l S
+0.16 0.22 0.25 rg BT /F1 8 Tf 1 0 0 1 72 491 Tm (Nama karyawan  | Jabatan) Tj ET
+0.16 0.22 0.25 rg BT /F1 8 Tf 1 0 0 1 445 491 Tm (Hadir / Belum) Tj ET
+0.84 0.89 0.88 RG 1 w 68 486 m 525 486 l S
+0.16 0.22 0.25 rg BT /F1 8 Tf 1 0 0 1 72 471 Tm (Nama karyawan  | Jabatan) Tj ET
+0.16 0.22 0.25 rg BT /F1 8 Tf 1 0 0 1 445 471 Tm (Hadir / Belum) Tj ET
+0.84 0.89 0.88 RG 1 w 68 466 m 525 466 l S
+0.16 0.22 0.25 rg BT /F1 8 Tf 1 0 0 1 72 451 Tm (Nama karyawan  | Jabatan) Tj ET
+0.16 0.22 0.25 rg BT /F1 8 Tf 1 0 0 1 445 451 Tm (Hadir / Belum) Tj ET
+0.05 0.46 0.43 rg BT /F2 11 Tf 1 0 0 1 42 384 Tm (DASHBOARD KARYAWAN / ABSENSI) Tj ET
+1 1 1 rg 42 92 511 278 re f
+0.77 0.84 0.82 RG 1 w 42 92 511 278 re S
+0.05 0.46 0.43 rg 55 107 282 248 re f
+1 1 1 rg BT /F2 11 Tf 1 0 0 1 70 329 Tm (Kehadiran Anda  | Status) Tj ET
+0.88 0.97 0.94 rg BT /F1 9 Tf 1 0 0 1 70 300 Tm (Clock in             Clock out) Tj ET
+0.17 0.55 0.51 rg 70 237 112 50 re f
+0.17 0.55 0.51 rg 196 237 122 50 re f
+1 1 1 rg BT /F2 14 Tf 1 0 0 1 80 256 Tm (--:--) Tj ET
+1 1 1 rg BT /F2 14 Tf 1 0 0 1 207 256 Tm (--:--) Tj ET
+1 1 1 rg 70 185 112 36 re f
+0.05 0.46 0.43 rg 196 185 122 36 re f
+1 1 1 RG 1 w 196 185 122 36 re S
+0.05 0.46 0.43 rg BT /F2 9 Tf 1 0 0 1 92 198 Tm (Clock in) Tj ET
+1 1 1 rg BT /F2 9 Tf 1 0 0 1 216 198 Tm (Clock out) Tj ET
+0.96 0.97 0.98 rg 352 230 184 125 re f
+0.86 0.89 0.90 RG 1 w 352 230 184 125 re S
+0.25 0.31 0.33 rg BT /F2 10 Tf 1 0 0 1 367 332 Tm ([ Ambil selfie ]) Tj ET
+0.16 0.22 0.25 rg BT /F1 9 Tf 1 0 0 1 367 307 Tm ([ Ambil lokasi GPS ]) Tj ET
+0.16 0.22 0.25 rg BT /F1 8 Tf 1 0 0 1 367 282 Tm (Koordinat / alamat) Tj ET
+0.92 0.97 0.95 rg 352 172 184 45 re f
+0.84 0.90 0.88 RG 1 w 352 172 184 45 re S
+0.05 0.46 0.43 rg BT /F2 9 Tf 1 0 0 1 365 189 Tm ([ Bagikan bukti absensi ]) Tj ET
+0.35 0.42 0.43 rg BT /F1 8 Tf 1 0 0 1 56 126 Tm (Menu hamburger membuka: Absensi | Pengajuan | Upah harian | Penggajian | Password | Keluar) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 3417 >>
+stream
+0.05 0.46 0.43 rg 0 833 595 9 re f
+0.05 0.46 0.43 rg BT /F2 9 Tf 1 0 0 1 42 799 Tm (HADIRUPAH  /  DOKUMEN PRODUK) Tj ET
+0.10 0.19 0.20 rg BT /F2 24 Tf 1 0 0 1 42 763 Tm (4. Workflow operasional) Tj ET
+0.42 0.49 0.50 rg BT /F1 10 Tf 1 0 0 1 42 741 Tm (Alur utama menurut peran) Tj ET
+0.84 0.89 0.88 RG 1 w 42 725 m 553 725 l S
+0.84 0.89 0.88 RG 1 w 42 37 m 553 37 l S
+0.48 0.54 0.55 rg BT /F1 8 Tf 1 0 0 1 42 18 Tm (Ringkasan aplikasi | Demo lokal | Juni 2025) Tj ET
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 520 18 Tm (05) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 699 Tm (A. Login dan pemilihan role) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 678 Tm (Buka aplikasi -> isi username/password -> validasi lokal -> admin masuk ke) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 663 Tm (dashboard HR; akun karyawan masuk ke dashboard personal.) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 632 Tm (B. Clock in dan clock out karyawan) Tj ET
+0.95 0.98 0.97 rg 62 598 465 26 re f
+0.84 0.90 0.88 RG 1 w 62 598 465 26 re S
+0.22 0.29 0.30 rg BT /F1 9 Tf 1 0 0 1 75 607 Tm (Login sebagai karyawan) Tj ET
+0.95 0.98 0.97 rg 62 564 465 26 re f
+0.84 0.90 0.88 RG 1 w 62 564 465 26 re S
+0.22 0.29 0.30 rg BT /F1 9 Tf 1 0 0 1 75 573 Tm (Pilih menu Absensi / Ringkasan) Tj ET
+0.95 0.98 0.97 rg 62 530 465 26 re f
+0.84 0.90 0.88 RG 1 w 62 530 465 26 re S
+0.22 0.29 0.30 rg BT /F1 9 Tf 1 0 0 1 75 539 Tm (Ambil selfie dan izinkan akses GPS) Tj ET
+0.95 0.98 0.97 rg 62 496 465 26 re f
+0.84 0.90 0.88 RG 1 w 62 496 465 26 re S
+0.22 0.29 0.30 rg BT /F1 9 Tf 1 0 0 1 75 505 Tm (Aplikasi memperoleh koordinat, lalu meminta alamat reverse geocoding) Tj ET
+0.95 0.98 0.97 rg 62 462 465 26 re f
+0.84 0.90 0.88 RG 1 w 62 462 465 26 re S
+0.22 0.29 0.30 rg BT /F1 9 Tf 1 0 0 1 75 471 Tm (Clock in menyimpan jam, foto, koordinat dan alamat) Tj ET
+0.95 0.98 0.97 rg 62 428 465 26 re f
+0.84 0.90 0.88 RG 1 w 62 428 465 26 re S
+0.22 0.29 0.30 rg BT /F1 9 Tf 1 0 0 1 75 437 Tm (Saat pulang, clock out merekam jam pulang) Tj ET
+0.95 0.98 0.97 rg 62 394 465 26 re f
+0.84 0.90 0.88 RG 1 w 62 394 465 26 re S
+0.22 0.29 0.30 rg BT /F1 9 Tf 1 0 0 1 75 403 Tm (Share membagikan teks bukti ke perangkat/aplikasi lain) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 368 Tm (C. Akun karyawan dan pengelolaan HR) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 347 Tm (Admin membuka Karyawan -> Tambah karyawan -> mengisi profil/kontak/rekening,) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 332 Tm (username, password awal, upah, insentif dan jadwal -> Simpan -> akun siap login.) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 317 Tm (HR dapat mencari data dan reset sandi demo.) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 292 Tm (D. Pengajuan izin/cuti) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 271 Tm (Karyawan membuka menu hamburger -> Buat pengajuan -> pilih) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 256 Tm (jenis/tanggal/keterangan -> Kirim \(Menunggu\) -> HR membuka Pengajuan ->) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 241 Tm (Setujui/Tolak -> status tampil pada daftar karyawan.) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 216 Tm (E. Payroll) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 195 Tm (HR membuka Penggajian -> meninjau upah bulanan, harian dan lembur ->) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 52 180 Tm (buat/bagikan teks slip. Karyawan melihat ringkasan dan membagikan slip.) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 4296 >>
+stream
+0.05 0.46 0.43 rg 0 833 595 9 re f
+0.05 0.46 0.43 rg BT /F2 9 Tf 1 0 0 1 42 799 Tm (HADIRUPAH  /  DOKUMEN PRODUK) Tj ET
+0.10 0.19 0.20 rg BT /F2 24 Tf 1 0 0 1 42 763 Tm (5. Data, rumus, dan batasan) Tj ET
+0.42 0.49 0.50 rg BT /F1 10 Tf 1 0 0 1 42 741 Tm (Panduan membaca angka serta kesiapan aplikasi) Tj ET
+0.84 0.89 0.88 RG 1 w 42 725 m 553 725 l S
+0.84 0.89 0.88 RG 1 w 42 37 m 553 37 l S
+0.48 0.54 0.55 rg BT /F1 8 Tf 1 0 0 1 42 18 Tm (Ringkasan aplikasi | Demo lokal | Juni 2025) Tj ET
+0.05 0.46 0.43 rg BT /F2 8 Tf 1 0 0 1 520 18 Tm (06) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 699 Tm (Data profil karyawan) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 678 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 678 Tm (Identitas dan akun: nama, username, password awal, jabatan/fungsi, kontak telepon,) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 664 Tm (email, kontak darurat.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 647 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 647 Tm (Payroll dan jadwal: gaji bulanan, insentif Minggu/libur, bank/rekening, jam) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 633 Tm (mulai/selesai, hari kerja.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 616 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 616 Tm (Aktivitas: absensi bertanggal dengan foto/lokasi, dan pengajuan berstatus) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 602 Tm (Menunggu/Disetujui/Ditolak.) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 577 Tm (Catatan perhitungan payroll) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 556 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 556 Tm (Dasar harian dihitung bulanan / 26. Lembur per jam dihitung bulanan / 173.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 539 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 539 Tm (Lembur demo dihitung hanya untuk durasi clock out setelah jadwal selesai. Upah) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 525 Tm (hari dasar diberikan untuk hari terjadwal bila ada clock in.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 508 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 508 Tm (Insentif berlaku saat Minggu atau di luar hari kerja yang dipilih. Kalender hari) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 494 Tm (libur nasional belum terhubung otomatis.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 477 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 477 Tm (Slip gaji yang dibagikan adalah ringkasan teks demo; integrasi transfer bank dan) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 463 Tm (slip PDF resmi belum tersedia.) Tj ET
+0.05 0.46 0.43 rg BT /F2 14 Tf 1 0 0 1 42 438 Tm (Penyimpanan, keamanan, PWA) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 417 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 417 Tm (Data tersimpan pada localStorage browser. Tidak tersinkron antarperangkat/pengguna) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 403 Tm (dan dapat terhapus saat browser dibersihkan.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 386 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 386 Tm (Login/password hanya simulasi client-side; bukan autentikasi produksi. Jangan) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 372 Tm (gunakan password atau data rekening nyata.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 355 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 355 Tm (PWA menyediakan manifest, icon dan service worker cache; instalasi/offline) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 341 Tm (bergantung browser dan aset yang pernah dimuat.) Tj ET
+0.05 0.46 0.43 rg BT /F2 10 Tf 1 0 0 1 47 324 Tm (-) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 324 Tm (GPS memerlukan izin dan secure context; reverse geocoding memerlukan koneksi ke) Tj ET
+0.25 0.31 0.33 rg BT /F1 10 Tf 1 0 0 1 61 310 Tm (layanan OpenStreetMap Nominatim.) Tj ET
+0.99 0.96 0.89 rg 42 223 511 58 re f
+0.92 0.83 0.62 RG 1 w 42 223 511 58 re S
+0.53 0.34 0.08 rg BT /F2 10 Tf 1 0 0 1 56 259 Tm (Untuk produksi) Tj ET
+0.38 0.34 0.24 rg BT /F1 9 Tf 1 0 0 1 56 240 Tm (Tambahkan backend dan database, autentikasi/otorisasi, audit trail, kebijakan) Tj ET
+0.38 0.34 0.24 rg BT /F1 9 Tf 1 0 0 1 56 228 Tm (privasi, validasi payroll, kalender libur, dan integrasi pembayaran.) Tj ET
+endstream
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000021 00000 n 
+0000000070 00000 n 
+0000000161 00000 n 
+0000000231 00000 n 
+0000000306 00000 n 
+0000000374 00000 n 
+0000000520 00000 n 
+0000011189 00000 n 
+0000011335 00000 n 
+0000014796 00000 n 
+0000014944 00000 n 
+0000019219 00000 n 
+0000019367 00000 n 
+0000023403 00000 n 
+0000023551 00000 n 
+0000027021 00000 n 
+0000027169 00000 n 
+trailer
+<< /Size 18 /Root 1 0 R >>
+startxref
+31518
+%%EOF
